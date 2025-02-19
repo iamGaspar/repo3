@@ -1,0 +1,53 @@
+{
+  "callId": "1251726003d244cf96d87dae5287c500",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-02-19T19:29:39.869Z",
+  "baseDomain": "gaspar.test.child",
+  "siteGroupOwner": "4_OeB5tcE_TxP3TA-dpWFc5w",
+  "dataCenter": "eu1",
+  "trustedSiteURLs": [
+    "gaspar.test.child/*",
+    "*.gaspar.test.child/*"
+  ],
+  "tags": [],
+  "description": "",
+  "captchaProvider": "Google",
+  "settings": {
+    "CNAME": "",
+    "shortURLDomain": "",
+    "shortURLRedirMethod": "js",
+    "encryptPII": true
+  },
+  "siteGroupConfig": {
+    "enableSSO": false
+  },
+  "trustedShareURLs": [
+    "bit.ly/*",
+    "fw.to/*",
+    "shr.gs/*",
+    "vst.to/*",
+    "socli.ru/*",
+    "s.gigya-api.cn/*"
+  ],
+  "enableDataSharing": true,
+  "isCDP": false,
+  "invisibleRecaptcha": {
+    "SiteKey": "testeFinal2",
+    "Secret": "testeFinal2"
+  },
+  "recaptchaV2": {
+    "SiteKey": "testefinal2",
+    "Secret": "testeFinal2"
+  },
+  "funCaptcha": {
+    "SiteKey": "",
+    "Secret": ""
+  },
+  "customAPIDomainPrefix": "",
+  "jwtKeyVersion": 2,
+  "enableHSTS": false,
+  "context": "{\"id\":\"webSdk\",\"targetApiKey\":\"4_Ole8xqhgjrBoA_rDGIo6lw\"}"
+}

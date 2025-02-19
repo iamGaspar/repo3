@@ -1,0 +1,58 @@
+{
+  "errorCode": 0,
+  "recaptchaConfig": [
+    {
+      "Type": 1,
+      "Key": "testefinal2",
+      "Secret": "testeFinal2"
+    },
+    {
+      "Type": 3,
+      "Key": "testeFinal2",
+      "Secret": "testeFinal2"
+    },
+    {
+      "Type": 2,
+      "Key": "testeFinal2",
+      "Secret": "testeFinal2"
+    },
+    {
+      "Type": 4,
+      "Key": "",
+      "Secret": ""
+    }
+  ],
+  "securityPolicies": {
+    "accountLockout": {
+      "failedLoginThreshold": 0,
+      "lockoutTimeSec": 300,
+      "failedLoginResetSec": 0
+    },
+    "captcha": {
+      "failedLoginThreshold": 0
+    },
+    "ipLockout": {
+      "hourlyFailedLoginThreshold": 0,
+      "lockoutTimeSec": 0
+    },
+    "passwordChangeInterval": 0,
+    "passwordHistorySize": 0,
+    "riskAssessmentWithReCaptchaV3": true,
+    "riskAssessmentWithTransUnion": true,
+    "sendUnknownLocationNotification": false,
+    "signDeviceId": "js_latest"
+  },
+  "registrationPolicies": {
+    "requireCaptcha": true,
+    "requireSecurityQuestion": false,
+    "requireLoginID": false,
+    "enforceCoppa": false
+  },
+  "riskProvidersConfig": {
+    "subscriberId": "testeFinal2",
+    "account": "testeFinal2",
+    "password": "testeFinal2",
+    "environment": 1,
+    "integrationPoint": "testeFinal2"
+  }
+}

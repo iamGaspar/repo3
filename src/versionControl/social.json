@@ -1,0 +1,11 @@
+{
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "50af2de326954713840c87be3e7ffabf",
+  "time": "2025-02-19T19:29:39.708Z",
+  "context": "{&quot;id&quot;:&quot;socialIdentities&quot;,&quot;targetApiKey&quot;:&quot;4_Ole8xqhgjrBoA_rDGIo6lw&quot;}",
+  "capabilities": "none",
+  "settings": "disableGooglePlusLoginScope",
+  "providers": {}
+}

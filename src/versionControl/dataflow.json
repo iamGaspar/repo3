@@ -1,0 +1,67 @@
+{
+  "callId": "1d64767a35f94aae87d8f31303bee87f",
+  "context": "{\"id\":\"dataflows_search\",\"targetApiKey\":\"4_Ole8xqhgjrBoA_rDGIo6lw\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-02-19T19:29:39.758Z",
+  "resultCount": 2,
+  "result": [
+    {
+      "apiKey": "4_Ole8xqhgjrBoA_rDGIo6lw",
+      "siteId": 424580361618,
+      "id": "0443949e1c524feebdaf75353866bcfd",
+      "name": "draft2",
+      "status": "draft",
+      "description": "Empty Flow",
+      "steps": [
+        {
+          "id": "jvi",
+          "type": "datasource.read.gigya.account",
+          "params": {
+            "select": "*",
+            "from": "accounts",
+            "deltaField": "lastUpdatedTimestamp",
+            "batchSize": 300,
+            "maxConcurrency": 1,
+            "keepFieldNamesWithDotAsIs": false
+          }
+        }
+      ],
+      "version": 1,
+      "createTime": "2025-02-18T14:13:23.877Z",
+      "updateTime": "2025-02-18T14:13:23.877Z",
+      "updatedByName": "Tiago Gaspar",
+      "updatedByEmail": "tiago.gaspar@sap.com"
+    },
+    {
+      "apiKey": "4_Ole8xqhgjrBoA_rDGIo6lw",
+      "siteId": 424580361618,
+      "id": "e9814a5b884a41318fb05bfe811fb6dc",
+      "name": "draft",
+      "status": "draft",
+      "description": "Empty Flow",
+      "steps": [
+        {
+          "id": "gigya.account",
+          "type": "datasource.read.gigya.account",
+          "params": {
+            "select": "*",
+            "from": "accounts",
+            "deltaField": "lastUpdatedTimestamp",
+            "batchSize": 300,
+            "maxConcurrency": 1,
+            "keepFieldNamesWithDotAsIs": false
+          }
+        }
+      ],
+      "version": 1,
+      "createTime": "2025-02-18T14:03:28Z",
+      "updateTime": "2025-02-18T14:03:28Z",
+      "updatedByName": "Tiago Gaspar",
+      "updatedByEmail": "tiago.gaspar@sap.com"
+    }
+  ],
+  "totalCount": null
+}
